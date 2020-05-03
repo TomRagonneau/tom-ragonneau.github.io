@@ -290,7 +290,7 @@ h6 {
 
 #container #left_column {
 	float: left;
-	width: 280px;
+	width: 220px;
 }
 
 #container #left_column h2.title {
@@ -339,7 +339,7 @@ h6 {
 
 #container #content {
 	float: right;
-	width: 630px;
+	width: 690px;
 }
 
 #container #content section article {}
