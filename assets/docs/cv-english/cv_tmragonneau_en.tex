@@ -1,0 +1,101 @@
+% English CV of Tom M. Ragonneau (05/05/2020).
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper,academicons]{altacv}
+%% AltaCV uses the fontawesome and academicon fonts and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+\setmainfont{Lato}
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+\name{TOM M. RAGONNEAU}
+\tagline{Ph.D. Student, Computational Mathematics and Optimization}
+% \photo{2.8cm}{Globe_High}
+\personalinfo{%
+    % Not all of these are required!
+    \email{tom.ragonneau@connect.polyu.hk}
+    \mailaddress{P115, Mong Man Wai Bldg., The Hong Kong Polytechnic University}
+    \location{Hong Kong}
+    \homepage{www.tom-ragonneau.co}
+%    \twitter{@twitterhandle}
+%    \linkedin{linkedin.com/in/yash-raj-579b96156/}
+    \github{github.com/TomRagonneau}
+    \orcid{orcid.org/0000-0003-2717-2876}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[page1sidebar]{Education}
+
+\cvevent{Ph.D. Student in Computational Mathematics}{The Hong Kong Polytechnic University}{Sep. 2019 -- Ongoing}{Hong Kong}
+\begin{itemize}
+    \item Department of Applied Mathematics.
+    \item Supervised by Dr. Zaikun Zhang and Prof. Xiaojun Chen.
+    \item Supported by the Research Grants Council (RGC) of Hong Kong, under the Hong Kong Ph.D. Fellowship Scheme (HKPFS).
+\end{itemize}
+
+\divider
+
+\cvevent{M.Sc. Degree in Scientific Computing}{Toulouse INP, E.N.S.E.E.I.H.T.}{Sep. 2018 - Jul. 2019}{Toulouse, France}
+\begin{itemize}
+    \item Graduated in Performance in Software, Media and Scientific Computing (PSMSC).
+    \item GPA: 4.0
+\end{itemize}
+
+\divider
+
+\cvevent{M.Eng. Degree in HPC and Big Data}{Toulouse INP, E.N.S.E.E.I.H.T.}{Sep. 2016 - Jul. 2019}{Toulouse, France}
+\begin{itemize}
+    \item Department of Computer Science and Applied Mathematics.
+    \item Majoring in optimization, HPC and machine learning.
+    \item GPA: 3.9
+\end{itemize}
+
+\cvsection{Working Experience}
+
+\cvevent{Research Assistant}{The Hong Kong Polytechnic University}{Mar 2019 -- Sep. 2019}{Hong Kong}
+\begin{itemize}
+    \item Department of Applied Mathematics.
+    \item M.Eng. final-year internship.
+\end{itemize}
+
+\divider
+
+\cvevent{Machine Learning Research}{Toulouse INP, E.N.S.E.E.I.H.T. \& ALTRAN}{Jan. 2019 -- Mar. 2019}{Hong Kong}
+\begin{itemize}
+    \item Deep learning approach for estimation of the nearshore bathymetry.
+    \item M.Eng. final-year project.
+\end{itemize}
+
+\divider
+
+\cvevent{Machine Learning Engineering}{Axians Cloud Builder}{Jun. 2018 -- Sep. 2018}{Toulouse, France}
+\begin{itemize}
+    \item Prediction of the load of an HPC cluster (National Centre for Space Studies) managed by GPFS via machine learning tools.
+    \item M.Eng. second-year internship.
+\end{itemize}
+
+\end{document}
