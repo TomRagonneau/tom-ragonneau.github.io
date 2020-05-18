@@ -6,6 +6,10 @@ Author URI: https://www.tom-ragonneau.com/
 Licence: GNU GPLv3+
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	padding: 0;
