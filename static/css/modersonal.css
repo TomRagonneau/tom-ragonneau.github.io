@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
     --aluminium: #818a91;
@@ -9,10 +9,9 @@
     --russian: #26272b;
     --shark: #33353d;
 }
-}
 
 body {
-    font-family: 'Modernline', 'Nunito', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 a {
